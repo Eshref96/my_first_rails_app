@@ -84,3 +84,10 @@ ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusExceptio
 (xfwm4:1164): xfwm4-WARNING **: 18:56:55.906: output size (580x654) and logical screen size (565x654) do not match
 
 (xfwm4:1164): xfwm4-WARNING **: 18:56:56.327: output size (588x654) and logical screen size (580x654) do not match
+
+(xfwm4:1164): xfwm4-WARNING **: 19:55:23.933: output size (588x650) and logical screen size (588x654) do not match
+
+(xfwm4:1164): xfwm4-WARNING **: 20:09:52.555: output size (1366x663) and logical screen size (588x650) do not match
+
+(xfwm4:1164): xfwm4-WARNING **: 20:12:02.528: XSync timeout for client "Software" (0x5e00008)
+Gtk-Message: 20:12:25.949: GtkDialog mapped without a transient parent. This is discouraged.

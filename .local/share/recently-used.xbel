@@ -31,4 +31,24 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///tmp/mozilla_eshref0/code_1.43.0-1583783132_amd64.deb" added="2020-03-17T19:09:28Z" modified="2020-03-17T19:09:28Z" visited="2020-03-17T19:09:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-17T19:09:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_eshref0/code_1.43.0-1583783132_amd64-1.deb" added="2020-03-17T19:11:54Z" modified="2020-03-17T19:11:54Z" visited="2020-03-17T19:11:54.774330Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2020-03-17T19:11:54Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
