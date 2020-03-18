@@ -43,51 +43,38 @@ dbus-update-activation-environment: setting LC_TIME=sq_AL.UTF-8
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
 VBoxClient: error: No service specified. Quitting because nothing to do!
 
-(xfce4-session:1153): xfce4-session-WARNING **: 18:42:11.275: xfsm_manager_load_session: Something wrong with /home/eshref/.cache/sessions/xfce4-session-eshref-VirtualBox:0, Does it exist? Permissions issue?
+(xfce4-session:1162): xfce4-session-WARNING **: 12:09:08.890: xfsm_manager_load_session: Something wrong with /home/eshref/.cache/sessions/xfce4-session-eshref-VirtualBox:0, Does it exist? Permissions issue?
 VBoxClient: error: No service specified. Quitting because nothing to do!
 
-(polkit-gnome-authentication-agent-1:1243): GLib-CRITICAL **: 18:42:13.214: g_variant_new_string: assertion 'string != NULL' failed
+(nm-applet:1204): Gtk-WARNING **: 12:09:13.237: Can't set a parent on widget which has a parent
 
-(polkit-gnome-authentication-agent-1:1243): polkit-gnome-1-WARNING **: 18:42:13.215: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(polkit-gnome-authentication-agent-1:1261): GLib-CRITICAL **: 12:09:13.393: g_variant_new_string: assertion 'string != NULL' failed
 
-(nm-applet:1197): Gtk-WARNING **: 18:42:15.989: Can't set a parent on widget which has a parent
+(polkit-gnome-authentication-agent-1:1261): polkit-gnome-1-WARNING **: 12:09:13.397: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-(nm-applet:1197): Gdk-CRITICAL **: 18:42:16.016: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+(nm-applet:1204): Gdk-CRITICAL **: 12:09:16.932: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
 
-(wrapper-2.0:1314): GLib-GIO-CRITICAL **: 18:42:17.062: g_file_new_for_path: assertion 'path != NULL' failed
+** (wrapper-2.0:1328): WARNING **: 12:09:17.383: No outputs have backlight property
 
-(wrapper-2.0:1314): GLib-GIO-CRITICAL **: 18:42:17.062: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+(wrapper-2.0:1325): GLib-GIO-CRITICAL **: 12:09:17.704: g_file_new_for_path: assertion 'path != NULL' failed
 
-(wrapper-2.0:1314): GLib-GObject-WARNING **: 18:42:17.062: invalid (NULL) pointer instance
+(wrapper-2.0:1325): GLib-GIO-CRITICAL **: 12:09:17.709: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
 
-(wrapper-2.0:1314): GLib-GObject-CRITICAL **: 18:42:17.063: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+(wrapper-2.0:1325): GLib-GObject-WARNING **: 12:09:17.713: invalid (NULL) pointer instance
 
-(wrapper-2.0:1314): Gtk-WARNING **: 18:42:17.063: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+(wrapper-2.0:1325): GLib-GObject-CRITICAL **: 12:09:17.717: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(wrapper-2.0:1326): Gtk-WARNING **: 18:42:17.301: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+(wrapper-2.0:1325): Gtk-WARNING **: 12:09:17.717: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
 
-(wrapper-2.0:1314): Gtk-WARNING **: 18:42:17.506: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+(wrapper-2.0:1329): Gtk-WARNING **: 12:09:17.974: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
 
-** (wrapper-2.0:1325): WARNING **: 18:42:17.587: No outputs have backlight property
+(wrapper-2.0:1325): Gtk-WARNING **: 12:09:18.016: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 
-(wrapper-2.0:1325): Gtk-WARNING **: 18:42:17.972: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+(wrapper-2.0:1328): Gtk-WARNING **: 12:09:18.515: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
 
-(wrapper-2.0:1306): Gtk-WARNING **: 18:42:18.059: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+(wrapper-2.0:1317): Gtk-WARNING **: 12:09:18.541: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 /usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
   from gi.repository import AppIndicator3 as girAppIndicator
 ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
-
-(xfwm4:1164): xfwm4-WARNING **: 18:56:55.449: output size (565x654) and logical screen size (547x654) do not match
-
-(xfwm4:1164): xfwm4-WARNING **: 18:56:55.906: output size (580x654) and logical screen size (565x654) do not match
-
-(xfwm4:1164): xfwm4-WARNING **: 18:56:56.327: output size (588x654) and logical screen size (580x654) do not match
-
-(xfwm4:1164): xfwm4-WARNING **: 19:55:23.933: output size (588x650) and logical screen size (588x654) do not match
-
-(xfwm4:1164): xfwm4-WARNING **: 20:09:52.555: output size (1366x663) and logical screen size (588x650) do not match
-
-(xfwm4:1164): xfwm4-WARNING **: 20:12:02.528: XSync timeout for client "Software" (0x5e00008)
-Gtk-Message: 20:12:25.949: GtkDialog mapped without a transient parent. This is discouraged.

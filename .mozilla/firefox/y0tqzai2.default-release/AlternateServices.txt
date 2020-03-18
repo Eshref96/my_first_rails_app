@@ -1,0 +1,2 @@
+http:www.michaelhartl.com:80:.:	0	18339	http:www.michaelhartl.com:80:www.michaelhartl.com:443::n:1584532026:h2:y:1584529917:n::http://www.michaelhartl.com|n:n:
+http:www.learnenough.com:80:.:	0	18339	http:www.learnenough.com:80:www.learnenough.com:443::n:1584532074:h2:y:1584529917:n::http://www.learnenough.com|n:n:

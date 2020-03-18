@@ -43,131 +43,51 @@ dbus-update-activation-environment: setting LC_TIME=sq_AL.UTF-8
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
 VBoxClient: error: No service specified. Quitting because nothing to do!
 
-(xfce4-session:1134): xfce4-session-WARNING **: 21:22:43.285: xfsm_manager_load_session: Something wrong with /home/eshref/.cache/sessions/xfce4-session-eshref-VirtualBox:0, Does it exist? Permissions issue?
+(xfce4-session:1153): xfce4-session-WARNING **: 18:42:11.275: xfsm_manager_load_session: Something wrong with /home/eshref/.cache/sessions/xfce4-session-eshref-VirtualBox:0, Does it exist? Permissions issue?
 VBoxClient: error: No service specified. Quitting because nothing to do!
 
-(nm-applet:1179): Gtk-WARNING **: 21:22:45.570: Can't set a parent on widget which has a parent
+(polkit-gnome-authentication-agent-1:1243): GLib-CRITICAL **: 18:42:13.214: g_variant_new_string: assertion 'string != NULL' failed
 
-(polkit-gnome-authentication-agent-1:1227): GLib-CRITICAL **: 21:22:45.957: g_variant_new_string: assertion 'string != NULL' failed
+(polkit-gnome-authentication-agent-1:1243): polkit-gnome-1-WARNING **: 18:42:13.215: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-(polkit-gnome-authentication-agent-1:1227): polkit-gnome-1-WARNING **: 21:22:45.963: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(nm-applet:1197): Gtk-WARNING **: 18:42:15.989: Can't set a parent on widget which has a parent
 
-(nm-applet:1179): Gdk-CRITICAL **: 21:22:47.249: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+(nm-applet:1197): Gdk-CRITICAL **: 18:42:16.016: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
 
-(nm-applet:1179): Gdk-CRITICAL **: 21:22:47.744: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+(wrapper-2.0:1314): GLib-GIO-CRITICAL **: 18:42:17.062: g_file_new_for_path: assertion 'path != NULL' failed
 
-(wrapper-2.0:1295): GLib-GIO-CRITICAL **: 21:22:47.771: g_file_new_for_path: assertion 'path != NULL' failed
+(wrapper-2.0:1314): GLib-GIO-CRITICAL **: 18:42:17.062: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
 
-(wrapper-2.0:1295): GLib-GIO-CRITICAL **: 21:22:47.778: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+(wrapper-2.0:1314): GLib-GObject-WARNING **: 18:42:17.062: invalid (NULL) pointer instance
 
-(wrapper-2.0:1295): GLib-GObject-WARNING **: 21:22:47.779: invalid (NULL) pointer instance
+(wrapper-2.0:1314): GLib-GObject-CRITICAL **: 18:42:17.063: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(wrapper-2.0:1295): GLib-GObject-CRITICAL **: 21:22:47.779: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+(wrapper-2.0:1314): Gtk-WARNING **: 18:42:17.063: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
 
-(wrapper-2.0:1295): Gtk-WARNING **: 21:22:47.779: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+(wrapper-2.0:1326): Gtk-WARNING **: 18:42:17.301: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
 
-** (wrapper-2.0:1301): WARNING **: 21:22:48.178: No outputs have backlight property
+(wrapper-2.0:1314): Gtk-WARNING **: 18:42:17.506: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 
-(wrapper-2.0:1295): Gtk-WARNING **: 21:22:48.429: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+** (wrapper-2.0:1325): WARNING **: 18:42:17.587: No outputs have backlight property
 
-(wrapper-2.0:1302): Gtk-WARNING **: 21:22:48.488: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+(wrapper-2.0:1325): Gtk-WARNING **: 18:42:17.972: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
 
-(wrapper-2.0:1301): Gtk-WARNING **: 21:22:49.195: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
-
-(wrapper-2.0:1284): Gtk-WARNING **: 21:22:49.610: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
-
-** (update-notifier:1207): WARNING **: 21:22:56.887: There is no graphical application installed to manage Livepatch. The livepatch status icon will not be displayed.
+(wrapper-2.0:1306): Gtk-WARNING **: 18:42:18.059: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 /usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
   from gi.repository import AppIndicator3 as girAppIndicator
-ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 
-(xfwm4:1145): xfwm4-WARNING **: 21:39:39.787: output size (707x600) and logical screen size (800x600) do not match
+(xfwm4:1164): xfwm4-WARNING **: 18:56:55.449: output size (565x654) and logical screen size (547x654) do not match
 
-(xfwm4:1145): xfwm4-WARNING **: 21:39:40.001: output size (679x600) and logical screen size (707x600) do not match
+(xfwm4:1164): xfwm4-WARNING **: 18:56:55.906: output size (580x654) and logical screen size (565x654) do not match
 
-** (xfdesktop:1153): CRITICAL **: 21:39:40.168: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+(xfwm4:1164): xfwm4-WARNING **: 18:56:56.327: output size (588x654) and logical screen size (580x654) do not match
 
-(xfwm4:1145): xfwm4-WARNING **: 21:39:40.443: output size (564x600) and logical screen size (679x600) do not match
+(xfwm4:1164): xfwm4-WARNING **: 19:55:23.933: output size (588x650) and logical screen size (588x654) do not match
 
-(xfwm4:1145): xfwm4-WARNING **: 21:39:40.663: output size (549x600) and logical screen size (564x600) do not match
+(xfwm4:1164): xfwm4-WARNING **: 20:09:52.555: output size (1366x663) and logical screen size (588x650) do not match
 
-(xfwm4:1145): xfwm4-WARNING **: 22:19:41.944: output size (549x662) and logical screen size (549x600) do not match
-
-(xfwm4:1145): xfwm4-WARNING **: 22:19:42.343: output size (549x654) and logical screen size (549x662) do not match
-
-(xfwm4:1145): xfwm4-WARNING **: 22:20:39.287: output size (547x654) and logical screen size (549x654) do not match
-/var/lib/dpkg/lock: 
-
-(xfce4-terminal:1991): Gdk-CRITICAL **: 23:25:33.615: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
-
-(mousepad:2501): Gtk-WARNING **: 23:26:54.472: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2501): Gtk-WARNING **: 23:26:54.473: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2501): Gtk-WARNING **: 23:26:54.474: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2501): Gtk-WARNING **: 23:26:54.474: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2501): Gtk-WARNING **: 23:26:54.474: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2511): Gtk-WARNING **: 23:27:28.388: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2511): Gtk-WARNING **: 23:27:28.392: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2511): Gtk-WARNING **: 23:27:28.392: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2511): Gtk-WARNING **: 23:27:28.392: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2511): Gtk-WARNING **: 23:27:28.392: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
-
-(mousepad:2511): GLib-GObject-CRITICAL **: 23:27:32.844: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
-
-(mousepad:2511): GLib-GObject-CRITICAL **: 23:27:32.844: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
-
-(mousepad:2511): GLib-GObject-CRITICAL **: 23:27:32.844: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
-
-(Thunar:1151): GLib-CRITICAL **: 23:28:12.934: g_key_file_set_string: assertion 'string != NULL' failed
-JavaScript error: chrome://messenger/content/aw-outgoing.js, line 95: TypeError: pageData.server.smtphostname is undefined
-JavaScript error: chrome://messenger/content/messengercompose/MsgComposeCommands.js, line 3434: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsICommandManager.removeCommandObserver]
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 694: Error: Phase "xpcom-will-shutdown" is finished, it is too late to register completion condition "UserInteractionTimer 2 for document 7fed7ed94000"
-
-(Thunar:1151): GLib-CRITICAL **: 23:29:21.670: g_key_file_set_string: assertion 'string != NULL' failed
-ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
-Traceback (most recent call last):
-  File "/usr/bin/blueman-sendto", line 403, in <module>
-    SendTo()
-  File "/usr/bin/blueman-sendto", line 325, in __init__
-    if not self.select_device():
-  File "/usr/bin/blueman-sendto", line 388, in select_device
-    d = DeviceSelectorDialog()
-  File "/usr/lib/python3/dist-packages/blueman/gui/DeviceSelectorDialog.py", line 21, in __init__
-    self.selector = DeviceSelectorWidget()
-  File "/usr/lib/python3/dist-packages/blueman/gui/DeviceSelectorWidget.py", line 28, in __init__
-    self.List = devlist = DeviceSelectorList(adapter)
-  File "/usr/lib/python3/dist-packages/blueman/gui/DeviceSelectorList.py", line 39, in __init__
-    DeviceList.__init__(self, adapter, data)
-  File "/usr/lib/python3/dist-packages/blueman/gui/DeviceList.py", line 110, in __init__
-    self.SetAdapter(adapter)
-  File "/usr/lib/python3/dist-packages/blueman/gui/DeviceList.py", line 285, in SetAdapter
-    self.Adapter = self.manager.get_adapter(adapter)
-  File "/usr/lib/python3/dist-packages/blueman/bluez/errors.py", line 148, in warp
-    raise parse_dbus_error(exception)
-  File "/usr/lib/python3/dist-packages/blueman/bluez/errors.py", line 146, in warp
-    return func(*args, **kwargs)
-  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 38, in get_adapter
-    adapters = self.list_adapters()
-  File "/usr/lib/python3/dist-packages/blueman/bluez/errors.py", line 148, in warp
-    raise parse_dbus_error(exception)
-  File "/usr/lib/python3/dist-packages/blueman/bluez/errors.py", line 146, in warp
-    return func(*args, **kwargs)
-  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 29, in list_adapters
-    objects = self.get_interface().GetManagedObjects()
-  File "/usr/lib/python3/dist-packages/dbus/proxies.py", line 70, in __call__
-    return self._proxy_method(*args, **keywords)
-  File "/usr/lib/python3/dist-packages/dbus/proxies.py", line 145, in __call__
-    **keywords)
-  File "/usr/lib/python3/dist-packages/dbus/connection.py", line 651, in call_blocking
-    message, timeout)
-dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+(xfwm4:1164): xfwm4-WARNING **: 20:12:02.528: XSync timeout for client "Software" (0x5e00008)
+Gtk-Message: 20:12:25.949: GtkDialog mapped without a transient parent. This is discouraged.
